@@ -1,0 +1,300 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May 11 08:03:47 2023
+# Process ID: 16584
+# Current directory: C:/Users/Admin/All_in/All_in.runs/impl_1
+# Command line: vivado.exe -log DigitalClock_12hrs.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DigitalClock_12hrs.tcl -notrace
+# Log file: C:/Users/Admin/All_in/All_in.runs/impl_1/DigitalClock_12hrs.vdi
+# Journal file: C:/Users/Admin/All_in/All_in.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DigitalClock_12hrs.tcl -notrace
+Command: link_design -top DigitalClock_12hrs -part xc7z010iclg225-1L
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 115 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z010iclg225-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H16' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R14' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:32]
+CRITICAL WARNING: [Common 17-69] Command failed: 'N16' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:34]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V17' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:38]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V18' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:39]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T16' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:40]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R17' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:41]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U5' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:44]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V5' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:45]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V6' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:46]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U7' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:47]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V7' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:48]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U8' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:49]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V8' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:50]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V10' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:51]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W10' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:52]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W6' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:53]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y6' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:54]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y7' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:55]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W8' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:56]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y8' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:57]
+CRITICAL WARNING: [Common 17-69] Command failed: 'W9' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:58]
+CRITICAL WARNING: [Common 17-69] Command failed: 'Y9' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:59]
+CRITICAL WARNING: [Common 17-69] Command failed: 'D19' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:62]
+CRITICAL WARNING: [Common 17-69] Command failed: 'D20' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:63]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L20' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:64]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L19' is not a valid site or package pin name. [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc:65]
+Finished Parsing XDC File [C:/Users/Admin/OneDrive - hcmut.edu.vn/Documents/Arty-Z7-20-Extension-board-Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 571.598 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+7 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010i'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.352 . Memory (MB): peak = 584.594 ; gain = 9.004
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 188057fff
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1132.352 ; gain = 547.758
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 5 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: ee8a4011
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: e2b73ed2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 4 cells and removed 4 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 19b6829e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 19b6829e7
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.124 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               4  |               4  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1227.953 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.127 . Memory (MB): peak = 1227.953 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1227.953 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 9195465c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+23 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1227.953 ; gain = 652.363
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1227.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Admin/All_in/All_in.runs/impl_1/DigitalClock_12hrs_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file DigitalClock_12hrs_drc_opted.rpt -pb DigitalClock_12hrs_drc_opted.pb -rpx DigitalClock_12hrs_drc_opted.rpx
+Command: report_drc -file DigitalClock_12hrs_drc_opted.rpt -pb DigitalClock_12hrs_drc_opted.pb -rpx DigitalClock_12hrs_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Admin/All_in/All_in.runs/impl_1/DigitalClock_12hrs_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010i'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 732be792
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1227.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1227.953 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus sec_led are not locked:  'sec_led[2]'  'sec_led[0]' 
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (24) is greater than number of available sites (8).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 8 sites available on device, but needs 24 sites.
+	Term: sec_led[0]
+	Term: sec_led[2]
+	Term: an[0]
+	Term: an[1]
+	Term: an[2]
+	Term: an[3]
+	Term: seg0[0]
+	Term: seg0[1]
+	Term: seg0[2]
+	Term: seg0[3]
+	Term: seg1[0]
+	Term: seg1[1]
+	Term: seg1[2]
+	Term: seg1[3]
+	Term: seg2[0]
+	Term: seg2[1]
+	Term: seg2[2]
+	Term: seg2[3]
+	Term: seg3[0]
+	Term: seg3[1]
+	Term: seg3[2]
+	Term: seg3[3]
+	Term: AM_PM_indicator_led
+	Term: clock_mode_indicator_led
+
+
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (28) is greater than number of available sites (8).
+The following are banks with available pins: 
+ IO Group: 0 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 1 Drv: 12  has only 8 sites available on device, but needs 24 sites.
+	Term: sec_led[0]
+	Term: sec_led[2]
+	Term: an[0]
+	Term: an[1]
+	Term: an[2]
+	Term: an[3]
+	Term: seg0[0]
+	Term: seg0[1]
+	Term: seg0[2]
+	Term: seg0[3]
+	Term: seg1[0]
+	Term: seg1[1]
+	Term: seg1[2]
+	Term: seg1[3]
+	Term: seg2[0]
+	Term: seg2[1]
+	Term: seg2[2]
+	Term: seg2[3]
+	Term: seg3[0]
+	Term: seg3[1]
+	Term: seg3[2]
+	Term: seg3[3]
+	Term: AM_PM_indicator_led
+	Term: clock_mode_indicator_led
+
+
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    46 |     4 | LVCMOS33(4)                                                            |                                          |        |  +3.30 |    YES |     |
+| 35 |     8 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |    54 |     4 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| 34     | sec_led[1]           | LVCMOS33        | IOB_X0Y13            | P14                  |                      |
+|        | sec_led[3]           | LVCMOS33        | IOB_X0Y31            | M14                  |                      |
+|        | sec_led[4]           | LVCMOS33        | IOB_X0Y34            | L15                  |                      |
+|        | sec_led[5]           | LVCMOS33        | IOB_X0Y44            | G14                  |                      |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: b3efcdff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1234.914 ; gain = 6.961
+Phase 1 Placer Initialization | Checksum: b3efcdff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.278 . Memory (MB): peak = 1234.914 ; gain = 6.961
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: b3efcdff
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.279 . Memory (MB): peak = 1234.914 ; gain = 6.961
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 1 Warnings, 27 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu May 11 08:04:02 2023...

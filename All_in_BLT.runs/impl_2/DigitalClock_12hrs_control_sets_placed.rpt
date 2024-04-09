@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu May 11 09:32:10 2023
+| Host         : LAPTOP-289I6F1L running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file DigitalClock_12hrs_control_sets_placed.rpt
+| Design       : DigitalClock_12hrs
+| Device       : xc7z020
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    31 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      5 |            1 |
+|      6 |            1 |
+|      8 |            5 |
+|      9 |            1 |
+|     15 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               9 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              52 |           13 |
+| Yes          | No                    | No                     |              47 |           20 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              21 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------+-----------------------+------------------+----------------+
+|  Clock Signal  |       Enable Signal       |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++----------------+---------------------------+-----------------------+------------------+----------------+
+|  clk_IBUF_BUFG | pm_i_2_n_0                | pm                    |                1 |              1 |
+|  clk_IBUF_BUFG | clock_mode_i_2_n_0        | toggle                |                1 |              1 |
+|  clk_IBUF_BUFG | min[5]_i_2_n_0            | min[5]_i_1_n_0        |                2 |              5 |
+|  clk_IBUF_BUFG | sec[5]_i_2_n_0            | sec[5]_i_1_n_0        |                2 |              6 |
+|  clk_IBUF_BUFG | hours[5]_i_2_n_0          | hours[5]_i_1_n_0      |                2 |              8 |
+|  clk_IBUF_BUFG | SSM/display[1][3]_i_1_n_0 |                       |                2 |              8 |
+|  clk_IBUF_BUFG | SSM/display[3][3]_i_1_n_0 |                       |                3 |              8 |
+|  clk_IBUF_BUFG | SSM/p_0_in                |                       |                4 |              8 |
+|  clk_IBUF_BUFG | SSM/display[2][3]_i_1_n_0 |                       |                5 |              8 |
+|  clk_IBUF_BUFG |                           |                       |                6 |              9 |
+|  clk_IBUF_BUFG | pm_i_2_n_0                |                       |                6 |             15 |
+|  clk_IBUF_BUFG |                           | SSM/clear             |                5 |             20 |
+|  clk_IBUF_BUFG |                           | counter[0]_i_1__0_n_0 |                8 |             32 |
++----------------+---------------------------+-----------------------+------------------+----------------+
+
+
